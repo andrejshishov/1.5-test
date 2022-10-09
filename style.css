@@ -1,0 +1,205 @@
+@font-face {
+    font-family:"TTLakes" ;
+    src: url("fonts/TTLakes-Light.woff");
+    font-weight:300;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"TTLakes" ;
+    src: url("fonts/TTLakes-Regular.woff");
+    font-weight:400;
+    font-style:normal;
+}
+
+
+@font-face {
+    font-family:"TTLakes" ;
+    src: url("fonts/TTLakes-Medium.woff");
+    font-weight:500;
+    font-style:normal;
+}
+
+
+@font-face {
+    font-family:"TTLakes" ;
+    src: url("fonts/TTLakes-Bold.woff");
+    font-weight:700;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"TTLakes" ;
+    src: url("fonts/TTLakes-Black.woff");
+    font-weight:900;
+    font-style:normal;
+}
+
+
+
+*, *::after, *::before {
+    margin:0;
+    padding:0;
+    border:none;
+    background:none;
+    list-style-type:none;
+    text-decoration:none;
+}
+
+
+button, input {
+    cursor:pointer;
+}
+
+
+html {
+    box-sizing: border-box;
+    
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    font-size:14px;
+    line-height:1.2;
+    font-family:"TTLakes", sans-serif;
+}
+
+
+
+
+
+
+
+.wrapper {
+    margin:0px auto;
+    background:linear-gradient(to right, #F8F8F8 100%, #FFFFFF 100%);
+}
+
+
+
+.brands__title {
+    background:white;
+    font-size:16px;
+    padding:16px;
+    font-weight:normal;
+    color:#7E7E82;
+    font-family: "TTLakes";
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    border-top:1px solid #D9FFF5;
+}
+
+
+
+.swiper {
+    min-height:140px;
+    box-sizing:border-box;
+    
+    
+  }
+
+
+
+
+.swiper .swiper-pagination-bullet {
+    height: 12px;
+    width: 12px;
+    background-color: #DDDDDD;
+    
+
+
+}
+
+
+
+.swiper-wrapper  .swiper-slide  {
+    width:240px !important; 
+    
+    box-sizing:border-box;
+}
+  
+
+
+.brands__list {
+    padding-top:16px;
+    padding-left:20px;
+    box-sizing:border-box;
+
+  }
+
+
+
+.brands__link {
+    width:240px;
+    padding:16px;
+    height:72px;
+    border:1px solid #EAEAEA;
+    border-radius:6px;
+    background:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+  .brands__button {
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:40px;
+    height:40px;
+    border:2px solid #FF3E79;
+    border-radius:50%;
+  }
+
+
+  .brands__button-center {
+    position:absolute;
+    left:13.5px;
+    width:6.5px;
+    height:6.5px;
+    border:2px solid #FF3E79;
+    border-bottom:none;
+    border-left:none;
+    transform:rotate(45deg);
+}
+
+
+
+
+@media (min-width:768px) {
+
+    .brands__list {   
+        overflow:visible; 
+        display:flex;             
+        flex-wrap:wrap;
+        padding-left:24px;
+        padding-top:24px;
+        padding-bottom:16px;
+        padding-right:24px;
+        gap:16px 24px;
+       
+    }
+   
+    .brands__link {
+       width:224px;
+    }
+   
+   
+   
+   
+    .brands__show-button {
+       display:block;
+       border:1px solid red;
+   }
+   
+   
+    }
+   
+   
+    
+
